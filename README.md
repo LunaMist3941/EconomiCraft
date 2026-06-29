@@ -1,25 +1,91 @@
+# EconomiCraft
 
-Installation information
-=======
+A modular economy mod for Minecraft NeoForge.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+> ⚠️ This project is currently under active development.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green)
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+![NeoForge](https://img.shields.io/badge/NeoForge-21.1.x-orange)
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+![Status](https://img.shields.io/badge/Status-In_Development-yellow)
+---
+
+## Features
+
+### Current
+
+- Project initialization
+- NeoForge 1.21.1
+- Modular architecture
+- Multi-version ready design
+
+### Planned
+
+- Shop System
+- Coin Item
+- Wallet System
+- Bank
+- Auction
+- Quest
+- Economy API
+- Multi-version support
+
+---
+
+## Supported Versions
+
+| Minecraft | NeoForge | Status |
+|-----------|----------|--------|
+| 1.21.1 | 21.1.x | In Development |
+
+---
+
+## Roadmap
+
+- [x] Project setup
+- [x] Package structure
+- [x] Configuration system
+- [ ] Registry system
+- [ ] Coin Item
+- [ ] Shop GUI
+- [ ] Economy Manager
+- [ ] Bank System
+- [ ] Auction System
+- [ ] Quest System
+
+---
+
+## Documentation
+
+See the `docs/` directory for project documentation.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## AI-assisted Development
+
+EconomiCraft is designed and developed with assistance from OpenAI's ChatGPT.
+
+AI is used to support:
+
+- Software architecture
+- Code review
+- Design discussions
+- Documentation
+- Development planning
+
+Final implementation and decisions are reviewed by the project maintainer.
+
+---
+
+## Author
+
+LunaMist3941
