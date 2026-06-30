@@ -392,6 +392,25 @@ When adding new systems:
 6. Implement commands.
 
 ---
+---
+
+## Documentation Rules
+
+Markdown documents should avoid language-specific code fences.
+
+Preferred:
+
+```
+Example Code
+```
+
+Avoid:
+
+```
+Example Code
+```
+
+This improves compatibility across editors, linters, and future documentation tools.
 
 ## Final Principle
 
