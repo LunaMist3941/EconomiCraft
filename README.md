@@ -1,66 +1,200 @@
 # EconomiCraft
 
-A modular economy mod for Minecraft NeoForge.
+A modular economy framework for Minecraft: NeoForge.
 
-> ⚠️ This project is currently under active development.
+EconomiCraft is designed to provide flexible economy systems that can be enabled or disabled depending on server requirements.
 
-![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green)
+This project currently targets Minecraft 1.21.1 and NeoForge 21.1.x.
 
-![NeoForge](https://img.shields.io/badge/NeoForge-21.1.x-orange)
-
-![License](https://img.shields.io/badge/License-MIT-blue)
-
-![Status](https://img.shields.io/badge/Status-In_Development-yellow)
 ---
 
 ## Features
 
-### Current
+Planned systems:
 
-- Project initialization
-- NeoForge 1.21.1
-- Modular architecture
-- Multi-version ready design
+- Coin-based economy
+- Shop system
+- Bank system
+- Auction system
+- Quest rewards
+- Public API
+- Multi-version architecture
+- Other mod item compatibility
 
-### Planned
-
-- Shop System
-- Coin Item
-- Wallet System
-- Bank
-- Auction
-- Quest
-- Economy API
-- Multi-version support
+Each system can be individually enabled or disabled through configuration files.
 
 ---
 
-## Supported Versions
+## Current Status
 
-| Minecraft | NeoForge | Status |
-|-----------|----------|--------|
-| 1.21.1 | 21.1.x | In Development |
+Current Version:
 
----
+```
+v0.1.0
+```
 
-## Roadmap
+Development Stage:
 
-- [x] Project setup
-- [x] Package structure
-- [x] Configuration system
+```
+Milestone 1 — Foundation
+```
+
+Current Progress:
+
+- [x] NeoForge project setup
+- [x] Java 21 support
+- [x] Documentation system
+- [x] Multi-version architecture
+- [x] Configuration architecture
 - [ ] Registry system
-- [ ] Coin Item
-- [ ] Shop GUI
-- [ ] Economy Manager
-- [ ] Bank System
-- [ ] Auction System
-- [ ] Quest System
+- [ ] Coin item
+- [ ] Data Components
+- [ ] GUI foundation
+- [ ] Network foundation
+
+---
+
+## Supported Platforms
+
+Currently supported:
+
+| Minecraft | Loader | Status |
+| ---------- | ------- | ------- |
+| 1.21.1 | NeoForge 21.1.x | In Development |
+
+Planned support:
+
+| Minecraft | Status |
+| ---------- | -------- |
+| 1.21.4 | Planned |
+| 1.22.x | Planned |
+
+---
+
+## Project Structure
+
+```
+docs
+├── architecture
+├── development
+└── specification
+
+src/main/java
+└── io/github/lunamist3941/economicraft
+    ├── api
+    ├── client
+    ├── command
+    ├── config
+    ├── economy
+    ├── gui
+    ├── network
+    ├── registry
+    ├── shop
+    ├── util
+    ├── version
+    └── platform
+```
 
 ---
 
 ## Documentation
 
-See the `docs/` directory for project documentation.
+Architecture:
+
+- docs/architecture/ARCHITECTURE.md
+- docs/architecture/PACKAGE_STRUCTURE.md
+- docs/architecture/MULTI_VERSION.md
+
+Development:
+
+- docs/development/CODING_RULES.md
+- docs/development/GIT_RULES.md
+- docs/development/ROADMAP.md
+- docs/development/MILESTONES.md
+- docs/development/CHANGELOG.md
+
+Specifications:
+
+- docs/specification/CONFIG.md
+- docs/specification/COIN.md
+- docs/specification/ECONOMY.md
+- docs/specification/SHOP.md
+- docs/specification/BANK.md
+- docs/specification/AUCTION.md
+- docs/specification/QUEST.md
+
+---
+
+## Building
+
+Requirements:
+
+- Java 21
+- NeoForge 21.1.x
+- Gradle 9.x
+
+Build:
+
+```
+gradlew build
+```
+
+Run Client:
+
+```
+gradlew runClient
+```
+
+Run Server:
+
+```
+gradlew runServer
+```
+
+---
+
+## Development Philosophy
+
+EconomiCraft follows these principles:
+
+- Readability over cleverness
+- Maintainability over convenience
+- Configuration-first development
+- Multi-version compatibility
+- Modular feature design
+
+---
+
+## AI-Assisted Development
+
+EconomiCraft is developed with assistance from ChatGPT.
+
+AI-generated code, documentation, and suggestions are always reviewed, tested, and approved by the project maintainer before being included in official releases.
+
+Final responsibility for all project content belongs to the maintainer.
+
+---
+
+## Roadmap
+
+Planned milestones:
+
+- Milestone 1 — Foundation
+- Milestone 2 — Economy Core
+- Milestone 3 — Shop System
+- Milestone 4 — Bank System
+- Milestone 5 — Auction System
+- Milestone 6 — Quest System
+- Milestone 7 — Public API
+- Milestone 8 — Multi-Version Support
+
+See:
+
+```
+docs/development/ROADMAP.md
+```
+
+for details.
 
 ---
 
@@ -68,21 +202,13 @@ See the `docs/` directory for project documentation.
 
 This project is licensed under the MIT License.
 
----
+See:
 
-## AI-assisted Development
+```
+LICENSE
+```
 
-EconomiCraft is designed and developed with assistance from OpenAI's ChatGPT.
-
-AI is used to support:
-
-- Software architecture
-- Code review
-- Design discussions
-- Documentation
-- Development planning
-
-Final implementation and decisions are reviewed by the project maintainer.
+for details.
 
 ---
 
