@@ -386,3 +386,4 @@ The menu architecture must support additional systems without redesigning existi
 # Final Principle
 
 > Every major EconomiCraft system should be accessible from a single, intuitive, and consistent interface.
+> 

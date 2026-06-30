@@ -41,34 +41,34 @@ Milestone 1 — Foundation
 
 Current Progress:
 
-- [x] NeoForge project setup
-- [x] Java 21 support
-- [x] Documentation system
-- [x] Multi-version architecture
-- [x] Configuration architecture
-- [ ] Registry system
-- [ ] Coin item
-- [ ] Data Components
-- [ ] GUI foundation
-- [ ] Network foundation
+1. [ ] NeoForge project setup
+2. [ ] Java 21 support
+3. [ ] Documentation system
+4. [ ] Multi-version architecture
+5. [ ] Configuration architecture
+6. [ ] Registry system
+7. [ ] Internal coin system
+8. [ ] Player wallet data
+9. [ ] Data Components
+10. [ ] GUI foundation
+11. [ ] Network foundation
 
 ---
 
 ## Supported Platforms
 
-Currently supported:
+### Current Support
 
 | Minecraft | Loader | Status |
-| ---------- | ------- | ------- |
+|------------|---------|---------|
 | 1.21.1 | NeoForge 21.1.x | In Development |
 
-Planned support:
+### Planned Support
 
 | Minecraft | Status |
-| ---------- | -------- |
+|------------|---------|
 | 1.21.4 | Planned |
 | 1.22.x | Planned |
-
 ---
 
 ## Project Structure
@@ -99,29 +99,23 @@ src/main/java
 
 ## Documentation
 
-Architecture:
+### Architecture
 
 - docs/architecture/ARCHITECTURE.md
 - docs/architecture/PACKAGE_STRUCTURE.md
 - docs/architecture/MULTI_VERSION.md
+- docs/architecture/addons.md
 
-Development:
+### Specifications
 
-- docs/development/CODING_RULES.md
-- docs/development/GIT_RULES.md
-- docs/development/ROADMAP.md
-- docs/development/MILESTONES.md
-- docs/development/CHANGELOG.md
-
-Specifications:
-
-- docs/specification/CONFIG.md
 - docs/specification/COIN.md
-- docs/specification/ECONOMY.md
-- docs/specification/SHOP.md
+- docs/specification/MENU.md
+- docs/specification/TEAM.md
 - docs/specification/BANK.md
-- docs/specification/AUCTION.md
-- docs/specification/QUEST.md
+
+### Development
+
+- CODING_RULES.md
 
 ---
 
@@ -215,3 +209,5 @@ for details.
 ## Author
 
 LunaMist3941
+
+Developer and maintainer of EconomiCraft.
