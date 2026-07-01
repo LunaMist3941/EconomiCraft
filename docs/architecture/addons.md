@@ -341,3 +341,24 @@ Large systems should favor separate addons over expanding the core project.
 # Final Principle
 
 > The core should remain lightweight, while addons provide optional complexity and specialization.
+
+---
+
+## EconomiCraft MoneyPlus
+
+Status: Planned
+Type: Official Addon
+
+Adds advanced financial systems beyond the Core module.
+
+Features:
+
+- Debt Systems
+- Loans
+- Taxes
+- Government Accounts
+- Business Accounts
+- Automatic Repayment
+- Credit Limits
+
+The Core module intentionally avoids these systems to preserve simplicity and predictability.
